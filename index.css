@@ -120,11 +120,10 @@ a
   }
   .events-body
   {
-    padding: 7%;
+    padding: 1%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
   }
   .event-left
   {
@@ -162,7 +161,6 @@ header{
     background-color: black;
     align-items: center;
     top: 0; left: 0;
-    position: fixed;
     padding: 1.2rem 2rem;
     z-index: 1000;
 }
