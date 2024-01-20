@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;500&family=Kalam:wght@300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;500&family=Roboto+Mono:wght@300&family=Rubik+Iso&family=Space+Grotesk:wght@500&display=swap');
 
 :root{
-    --blue:rgb(0, 162, 255);
+    --lbr:rgb(226,208,192);
 }
 
 *{
@@ -14,7 +14,7 @@
 }
 
 *::selection{
-    background: var(--blue);
+    background: var(--lbr);
     color:antiquewhite;
 }
 
@@ -27,7 +27,7 @@ html{
 header{
     width: 100%;
     display: flex;
-    background-color: black;
+    background-color: rgb(112, 80, 52);
     align-items: center;
     top: 0; left: 0;
     padding: 1.2rem 2rem;
@@ -68,13 +68,13 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-    color: var(--blue);
+    color: var(--lbr);
 }
 
 header .upload{
     margin-left: 2rem;
     font-size: 3rem;
-    background: var(--blue);
+    background: var(--lbr);
     color: black;
     border-radius: 5rem;
     padding: .5rem 2.5rem;
@@ -82,7 +82,7 @@ header .upload{
 
 header .upload:hover{
     background: #ffffff;
-    color: rgb(0, 60, 255);
+    color: var(--lbr);
 }
 
 #menu{
@@ -242,6 +242,7 @@ a
     flex-direction: row;
     justify-content: space-around;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 10rem;
 }
 
 
@@ -309,23 +310,6 @@ li {
   font-size: 1.7rem;
   color: #333333;
   border: none;
-}
-
-.footer .box-container .box form button {
-  height: 4rem;
-  width: 6rem;
-  line-height: 4rem;
-  text-align: center;
-  padding: 0.1rem;
-  font-size: 1.7rem;
-  color: white;
-  border: none;
-  background-color: #3498db;
-  cursor: pointer;
-}
-
-.footer .box-container .box form button:hover {
-  background: var(--gold);
 }
 
 .footer .credits {
