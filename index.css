@@ -245,76 +245,90 @@ a
 }
 
 
-
-
-
-
-.footer{
+.footer {
   background: #f2f2f2;
 }
 
-.footer .box-container{
+.footer .box-container {
   display: flex;
   justify-content: center;
-  
 }
 
-.footer .box-container .box{
-  margin: 2rem;
-  flex: 1 1 30rem;
+.footer .box-container .box {
+  margin: 4rem 10rem;
 }
 
-.footer .box-container .box h3{
+.footer .box-container .box h3 {
   font-size: 2.5rem;
-  color: #0077b6;
+  color: #000000;
 }
 
-.footer .box-container .box:nth-child(2){
+.footer .box-container .box p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+  padding-bottom: 2rem;
+}
+
+.footer .box-container .box:nth-child(2) {
   text-align: center;
 }
 
-.footer .box-container .box a{
+.footer .box-container .box a {
   display: block;
   font-size: 1.6rem;
   padding: 0.5rem 0;
+  color: #333333;
+}
+ul {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+.info {
+  display: flex;
+}
+li {
+  padding: 1rem;
 }
 
-.footer .box-container .box a:hover{
+
+.footer .box-container .box a:hover {
   text-decoration: underline;
 }
 
-.footer .box-container .box form{
+.footer .box-container .box form {
   display: flex;
   width: 100%;
 }
 
-.footer .box-container .box form input{
+.footer .box-container .box form input {
   height: 4rem;
   width: 100%;
   padding: 0 1rem;
   font-size: 1.7rem;
-  color:#333333;
+  color: #333333;
   border: none;
 }
 
-.footer .box-container .box form button{
+.footer .box-container .box form button {
   height: 4rem;
   width: 6rem;
   line-height: 4rem;
   text-align: center;
   padding: 0.1rem;
   font-size: 1.7rem;
-  color:white;
+  color: white;
   border: none;
   background-color: #3498db;
   cursor: pointer;
 }
 
-.footer .box-container .box form button:hover{
+.footer .box-container .box form button:hover {
   background: var(--gold);
 }
 
-.footer .credits{
+.footer .credits {
   text-align: center;
   padding: 2rem 1rem;
   background: #afafaffa;
@@ -322,19 +336,28 @@ a
   font-size: 2rem;
 }
 
-.footer .credits a{
+.footer .credits a {
   color: #0077b6;
 }
-.social-icons{
+.social-icons {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-
+}
+.box .social-icons a {
+  margin-bottom: 2.8rem;
 }
 .icons {
   height: 4rem;
   width: 4rem;
 }
 .panda {
-  height: 6rem;
-  width: 6rem;
+  height: 18rem;
+  width: 15rem;
+}
+.furry {
+  font-size: 15rem;
+}
+span {
+  font-size: 1.5rem;
 }
