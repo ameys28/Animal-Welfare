@@ -1,3 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;500&family=Kalam:wght@300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;500&family=Roboto+Mono:wght@300&family=Rubik+Iso&family=Space+Grotesk:wght@500&display=swap');
+
+:root{
+    --blue:rgb(0, 162, 255);
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+*::selection{
+    background: var(--blue);
+    color:antiquewhite;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    top: 0; left: 0;
+    padding: 1.2rem 2rem;
+    z-index: 1000;
+}
+
+header .logo{
+    font-size: 3rem;
+    color: white;
+    margin-right: auto;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+header .logo-img{
+    height: 8rem;
+}
+
+header .logo-name{
+    height: 8rem;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .navbar ul li{
+    margin: 0 3rem;
+}
+
+header .navbar ul li a{
+    color: white;
+    font-size: 3rem;
+}
+
+header .navbar ul li a:hover{
+    color: var(--blue);
+}
+
+header .upload{
+    margin-left: 2rem;
+    font-size: 3rem;
+    background: var(--blue);
+    color: black;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+
+header .upload:hover{
+    background: #ffffff;
+    color: rgb(0, 60, 255);
+}
+
+#menu{
+    font-size: 3rem;
+    color: #f2f2f2;
+    cursor: pointer;
+    display: none;
+}
+/* 
+header.header-active{
+    background: #111111;
+}
+
+header.header-active form{
+    display: flex;
+} */
+
+
+
+
+
+
+
+
+
 body
 {
     color:  black;
@@ -7,12 +116,7 @@ body
 .page-body
 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    top: 50px;
-    right: 0;
-    left: 0;
-    margin-top: 25px;
     grid-template-columns: 1fr 1fr;
     height: 550px;
 }
@@ -129,109 +233,6 @@ a
   {
     background-color: burlywood;
   }
-
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;500&family=Kalam:wght@300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;500&family=Roboto+Mono:wght@300&family=Rubik+Iso&family=Space+Grotesk:wght@500&display=swap');
-
-:root{
-    --blue:rgb(0, 162, 255);
-}
-
-*{
-    font-family: 'Open Sans', sans-serif;
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    text-decoration: none;
-    transition: all 0.2s linear;
-}
-
-*::selection{
-    background: var(--blue);
-    color:antiquewhite;
-}
-
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-}
-
-header{
-    width: 100%;
-    display: flex;
-    background-color: black;
-    align-items: center;
-    top: 0; left: 0;
-    position: fixed;
-    padding: 1.2rem 2rem;
-    z-index: 1000;
-}
-
-header .logo{
-    font-size: 3rem;
-    color: white;
-    margin-right: auto;
-    margin-left: 4rem;
-    margin-top: 0.5rem;
-    display: flex;
-}
-
-header .logo-img{
-    height: 8rem;
-}
-
-header .logo-name{
-    height: 8rem;
-}
-
-header .navbar ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-}
-
-header .navbar ul li{
-    margin: 0 3rem;
-}
-
-header .navbar ul li a{
-    color: white;
-    font-size: 3rem;
-}
-
-header .navbar ul li a:hover{
-    color: var(--blue);
-}
-
-header .upload{
-    margin-left: 2rem;
-    font-size: 3rem;
-    background: var(--blue);
-    color: black;
-    border-radius: 5rem;
-    padding: .5rem 2.5rem;
-}
-
-header .upload:hover{
-    background: #ffffff;
-    color: rgb(0, 60, 255);
-}
-
-#menu{
-    font-size: 3rem;
-    color: #f2f2f2;
-    cursor: pointer;
-    display: none;
-}
-/* 
-header.header-active{
-    background: #111111;
-}
-
-header.header-active form{
-    display: flex;
-} */
-
 
 
 
