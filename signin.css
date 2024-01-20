@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins';
+}
+
+body{
+    background-color: #F1F3F5;
+}
+
+main{
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main-box{
+    display: flex;
+    margin-top: 4rem;
+    background-color: white;
+    height: 55rem;
+}
+
+.left-box{
+    min-width: 40%;
+    background-color: 	rgb(199, 142, 68);
+    color: white;
+    justify-content: center;
+    align-items: center;    
+}
+
+.p1{
+    text-align: left;
+    margin: 2rem 1.5rem 1rem 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.p2{
+    text-align: left;
+    margin: 0 1.5rem 1rem 2rem;
+    padding: 0 1.5rem 1rem 1.5rem;
+    color: rgb(216, 216, 216);
+}
+
+.right-box{
+    min-width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.right-box input{
+    border: none;
+    outline: 0;
+    height: 3.5rem;
+    width: 30vw;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.right-box input:focus{
+    border-bottom: 1px solid black;
+}
+
+.right-box button{
+    cursor: pointer;
+    margin-top: 0.5rem;
+    /* margin-left: 1rem; */
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 30vw;
+    height: 3.5rem;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.right-box button:hover{
+    font-size: large;
+    transition: 0.2s;
+}
+.right-box .login{
+    background-color: #FB641B;
+    color: white;
+}
+
+.right-box .signup{
+    background-color: white;
+}
+
+.right-box .signup a{
+    text-decoration: none;
+    color: #2974F1;
+}
