@@ -1,7 +1,7 @@
 # SXC-Hackathon (Animal Welfare)
 
 # Hosted URL
-
+https://ameys28.github.io/Animal-Welfare/
 
 ## Introduction
 
