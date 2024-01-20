@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./signup.css">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <title>Sign Up</title>
+</head>
+<body>
+    
+<div id="navbar"></div>
+
+<main>
+    <div class="main-box">
+        <div class="left-box">
+            <p class="p1">Looks like you're new here!</p>
+            <p class="p2">Sign up with your mobile number to get started</p>
+        </div>
+        <div class="right-box">
+                <div><input id="mobile" type="number" placeholder="Enter Mobile Number"> </div>
+                <div><input id="name" type="text" placeholder="Enter your Name"></div>
+                <div><input id="pass" type="password" placeholder="Enter Password "></div>
+                <div><p>By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p></div>
+                <div><button class="continue" onclick="Signup()">Continue</button></div>
+                <div><button class="login"><a href="./signin.html" vlink="#2974F1">Existing User? Login</a></button></div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
+
+<script>
+    $(function(){
+        $("#navbar").load("./navbar.html");
+    });
+    
+</script>
+
+<script src="./signup.js"></script>

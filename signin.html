@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./signin.css">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <title>Login</title>
+</head>
+<body>
+    
+<div id="navbar"></div>
+
+<main>
+    <div class="main-box">
+        <div class="left-box">
+            <p class="p1">Login</p>
+            <p class="p2">Get access to your Orders, Wishlist and Recommendations</p>
+        </div>
+        <div class="right-box">
+                <div><input id="mobile" type="number" placeholder="Enter Mobile Number"> </div>
+                <!-- <div><input id="name" type="text" placeholder="Enter your Name"></div> -->
+                <div><input id="pass" type="password" placeholder="Enter Password "></div>
+                <div><button class="login" onclick="Signup()">Login</button></div>
+                <div><button class="signup"><a href="./signup.html" vlink="#2974F1">Not an Existing User? Signup</a></button></div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
+
+<script>
+    $(function(){
+        $("#navbar").load("./navbar.html");
+    });
+    
+</script>
+
+<script src="./signin.js"></script>
