@@ -1,5 +1,8 @@
 # SXC-Hackathon (Animal Welfare)
 
+# Hosted URL
+
+
 ## Introduction
 
 Welcome to our Animal Welfare Website – a digital hub dedicated to promoting awareness, understanding, and positive action for the well-being of animals. This repository contains the source code and assets for our website, where users can find valuable information, inspiring stories, and opportunities to make a difference in the lives of animals.
