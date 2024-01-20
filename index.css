@@ -231,7 +231,7 @@ header.header-active form{
 }
 
 .footer .box-container .box {
-  margin: 2rem 12.5rem;
+  margin: 4rem 10rem;
 }
 
 .footer .box-container .box h3 {
@@ -261,9 +261,13 @@ ul {
   box-sizing: border-box;
   padding: 1.5rem;
 }
+.info {
+  display: flex;
+}
 li {
   padding: 1rem;
 }
+
 
 .footer .box-container .box a:hover {
   text-decoration: underline;
@@ -313,15 +317,19 @@ li {
 }
 .social-icons {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+}
+.box .social-icons a {
+  margin-bottom: 2.8rem;
 }
 .icons {
   height: 4rem;
   width: 4rem;
 }
 .panda {
-  height: 10rem;
-  width: 10rem;
+  height: 18rem;
+  width: 15rem;
 }
 .furry {
   font-size: 15rem;
