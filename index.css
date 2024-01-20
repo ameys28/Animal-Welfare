@@ -118,7 +118,7 @@ body
     display: flex;
     justify-content: space-between;
     grid-template-columns: 1fr 1fr;
-    height: 550px;
+    height:70rem;
 }
 .intro-text
 {
@@ -154,7 +154,7 @@ body
 .intro-text-p
 {
     margin: 0;
-    font-size: 35px;
+    font-size: 4rem;
     font-weight: 500;
     text-align: end;
     padding-top: 5px ;
@@ -163,7 +163,7 @@ body
 .name-subtitle
 {
     color: black;
-    font-size: 15px;
+    font-size: 2rem;
     margin: 0;
     width: 100%;
     text-align: justify;
