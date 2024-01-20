@@ -1,0 +1,95 @@
+.footer{
+  background: #f2f2f2;
+}
+
+.footer .box-container{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer .box-container .box{
+  margin: 2rem;
+  flex: 1 1 30rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  color: #0077b6;
+}
+
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  color: #333333;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box:nth-child(2){
+  text-align: center;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+}
+
+.footer .box-container .box a:hover{
+  text-decoration: underline;
+}
+
+.footer .box-container .box form{
+  display: flex;
+  width: 100%;
+}
+
+.footer .box-container .box form input{
+  height: 4rem;
+  width: 100%;
+  padding: 0 1rem;
+  font-size: 1.7rem;
+  color:#333333;
+  border: none;
+}
+
+.footer .box-container .box form button{
+  height: 4rem;
+  width: 6rem;
+  line-height: 4rem;
+  text-align: center;
+  padding: 0.1rem;
+  font-size: 1.7rem;
+  color:white;
+  border: none;
+  background-color: #3498db;
+  cursor: pointer;
+}
+
+.footer .box-container .box form button:hover{
+  background: var(--gold);
+}
+
+.footer .credits{
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #afafaffa;
+  color: #333333;
+  font-size: 2rem;
+}
+
+.footer .credits a{
+  color: #0077b6;
+}
+.social-icons{
+  display: flex;
+  justify-content: space-between;
+
+}
+.icons {
+  height: 4rem;
+  width: 4rem;
+}
+.panda {
+  height: 6rem;
+  width: 6rem;
+}
