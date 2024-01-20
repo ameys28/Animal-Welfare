@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: 'poppins';
+    font-family: Roboto;
 }
 
 body{
@@ -23,7 +23,7 @@ main{
 
 .left-box{
     min-width: 40%;
-    background-color: #2974F1;
+    background-color: rgb(91, 65, 39);
     color: white;
     justify-content: center;
     align-items: center;    
@@ -90,7 +90,7 @@ main{
     transition: 0.2s;
 }
 .right-box .continue{
-    background-color: #FB641B;
+    background-color: rgb(210,176,141);
     color: white;
 }
 
@@ -100,5 +100,5 @@ main{
 
 .right-box .login a{
     text-decoration: none;
-    color: #2974F1;
+    color: black;
 }
