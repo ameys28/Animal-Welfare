@@ -223,16 +223,17 @@ a
   }
   .events-body
   {
-    padding: 7%;
+    padding: 1%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
   }
   .event-left
   {
     background-color: burlywood;
   }
+
+
 
 
 
@@ -255,12 +256,6 @@ a
 .footer .box-container .box h3{
   font-size: 2.5rem;
   color: #0077b6;
-}
-
-.footer .box-container .box p{
-  font-size: 1.5rem;
-  color: #333333;
-  padding: 1rem 0;
 }
 
 .footer .box-container .box:nth-child(2){
