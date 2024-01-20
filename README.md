@@ -1,4 +1,4 @@
-# SXC-Hackathon
+# SXC-Hackathon (Animal Welfare)
 
 ## Introduction
 
