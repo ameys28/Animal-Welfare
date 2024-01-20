@@ -1,3 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;500&family=Kalam:wght@300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;500&family=Roboto+Mono:wght@300&family=Rubik+Iso&family=Space+Grotesk:wght@500&display=swap');
+
+:root{
+    --blue:rgb(0, 162, 255);
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+*::selection{
+    background: var(--blue);
+    color:antiquewhite;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    top: 0; left: 0;
+    padding: 1.2rem 2rem;
+    z-index: 1000;
+}
+
+header .logo{
+    font-size: 3rem;
+    color: white;
+    margin-right: auto;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+header .logo-img{
+    height: 8rem;
+}
+
+header .logo-name{
+    height: 8rem;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .navbar ul li{
+    margin: 0 3rem;
+}
+
+header .navbar ul li a{
+    color: white;
+    font-size: 3rem;
+}
+
+header .navbar ul li a:hover{
+    color: var(--blue);
+}
+
+header .upload{
+    margin-left: 2rem;
+    font-size: 3rem;
+    background: var(--blue);
+    color: black;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+
+header .upload:hover{
+    background: #ffffff;
+    color: rgb(0, 60, 255);
+}
+
+#menu{
+    font-size: 3rem;
+    color: #f2f2f2;
+    cursor: pointer;
+    display: none;
+}
+/* 
+header.header-active{
+    background: #111111;
+}
+
+header.header-active form{
+    display: flex;
+} */
+
+
+
+
+
+
+
+
 
 body
 {
@@ -8,12 +116,7 @@ body
 .page-body
 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    top: 50px;
-    right: 0;
-    left: 0;
-    margin-top: 25px;
     grid-template-columns: 1fr 1fr;
     height: 550px;
 }
@@ -130,104 +233,97 @@ a
     background-color: burlywood;
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;500&family=Kalam:wght@300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;500&family=Roboto+Mono:wght@300&family=Rubik+Iso&family=Space+Grotesk:wght@500&display=swap');
 
-:root{
-    --blue:rgb(0, 162, 255);
+
+
+
+
+.footer{
+  background: #f2f2f2;
 }
 
-*{
-    font-family: 'Open Sans', sans-serif;
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    text-decoration: none;
-    transition: all 0.2s linear;
+.footer .box-container{
+  display: flex;
+  justify-content: center;
+  
 }
 
-*::selection{
-    background: var(--blue);
-    color:antiquewhite;
+.footer .box-container .box{
+  margin: 2rem;
+  flex: 1 1 30rem;
 }
 
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  color: #0077b6;
 }
 
-header{
-    width: 100%;
-    display: flex;
-    background-color: black;
-    align-items: center;
-    top: 0; left: 0;
-    padding: 1.2rem 2rem;
-    z-index: 1000;
+.footer .box-container .box:nth-child(2){
+  text-align: center;
 }
 
-header .logo{
-    font-size: 3rem;
-    color: white;
-    margin-right: auto;
-    margin-left: 4rem;
-    margin-top: 0.5rem;
-    display: flex;
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
 }
 
-header .logo-img{
-    height: 8rem;
+.footer .box-container .box a:hover{
+  text-decoration: underline;
 }
 
-header .logo-name{
-    height: 8rem;
+.footer .box-container .box form{
+  display: flex;
+  width: 100%;
 }
 
-header .navbar ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
+.footer .box-container .box form input{
+  height: 4rem;
+  width: 100%;
+  padding: 0 1rem;
+  font-size: 1.7rem;
+  color:#333333;
+  border: none;
 }
 
-header .navbar ul li{
-    margin: 0 3rem;
+.footer .box-container .box form button{
+  height: 4rem;
+  width: 6rem;
+  line-height: 4rem;
+  text-align: center;
+  padding: 0.1rem;
+  font-size: 1.7rem;
+  color:white;
+  border: none;
+  background-color: #3498db;
+  cursor: pointer;
 }
 
-header .navbar ul li a{
-    color: white;
-    font-size: 3rem;
+.footer .box-container .box form button:hover{
+  background: var(--gold);
 }
 
-header .navbar ul li a:hover{
-    color: var(--blue);
+.footer .credits{
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #afafaffa;
+  color: #333333;
+  font-size: 2rem;
 }
 
-header .upload{
-    margin-left: 2rem;
-    font-size: 3rem;
-    background: var(--blue);
-    color: black;
-    border-radius: 5rem;
-    padding: .5rem 2.5rem;
+.footer .credits a{
+  color: #0077b6;
 }
+.social-icons{
+  display: flex;
+  justify-content: space-between;
 
-header .upload:hover{
-    background: #ffffff;
-    color: rgb(0, 60, 255);
 }
-
-#menu{
-    font-size: 3rem;
-    color: #f2f2f2;
-    cursor: pointer;
-    display: none;
+.icons {
+  height: 4rem;
+  width: 4rem;
 }
-/* 
-header.header-active{
-    background: #111111;
+.panda {
+  height: 6rem;
+  width: 6rem;
 }
-
-header.header-active form{
-    display: flex;
-} */
-
